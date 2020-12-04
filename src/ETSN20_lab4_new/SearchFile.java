@@ -9,8 +9,7 @@ public class SearchFile {
 	public SearchFile() {}
 	
 public void printLines(String pattern, String fileName) throws FileNotFoundException{
-		
-//		Pattern pattern = new Pattern(fileName);
+
 		File file = new File (fileName);
 		Scanner readFile = new Scanner(file);
 		
